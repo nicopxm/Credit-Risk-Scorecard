@@ -10,6 +10,13 @@ A digital lender's 8.1% default rate across 307,511 applications was exceeding r
 
 This project delivers a **Probability of Default (PD) scorecard** built using logistic regression and Weight of Evidence (WoE) encoding, developed across three iterative model phases. The final model reduces the portfolio default rate from 8.1% to **3.37%** on approved applicants while maintaining a **55.2% approval rate** — a 58% reduction in credit losses.
 
+## Key findings
+
+- Applicants with lower secondary education default at **6x the rate** of those with academic degrees — the single strongest categorical signal in the dataset
+- Male applicants default at **10.1% vs 7.0%** for females — flagged for fairness review before production use
+- Employment tenure and age are the strongest application-time predictors — defaulters average 2.8 years employment vs 3.4 years for non-defaulters
+- External bureau scores (EXT_SOURCE_1/2/3) are the most predictive features with IV of 0.14–0.31 — more than 3x stronger than any application feature
+
 ---
 
 ## Business Requirements Document
@@ -23,6 +30,14 @@ Full project scope, acceptance criteria, stakeholder register, functional requir
 ## Live Dashboard
 
 📊 [Tableau Public Dashboard — Credit Risk Scorecard](https://public.tableau.com/app/profile/nico.avila/viz/CreditRiskScorecard/Dashboard1)
+
+![Dashboard Preview](dashboard_preview.png)
+
+---
+
+## Model Card
+
+📋 [Model Card — fairness assessment, limitations, deployment recommendations](MODEL_CARD.md)
 
 ---
 
@@ -154,7 +169,7 @@ cd Credit-Risk-Scorecard
 
 2. Download the raw dataset from Kaggle:
 [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk/data)
-Place `application_train.csv` in the `data/` folder.
+Place `application_train.csv` in the root project folder.
 
 3. Run notebooks in order:
 
