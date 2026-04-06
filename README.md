@@ -31,7 +31,7 @@ Full project scope, acceptance criteria, stakeholder register, functional requir
 
 📊 [Tableau Public Dashboard — Credit Risk Scorecard](https://public.tableau.com/app/profile/nico.avila/viz/CreditRiskScorecard/Dashboard1)
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](dashboard_preview.PNG)
 
 ---
 
