@@ -22,7 +22,7 @@ Full project scope, acceptance criteria, stakeholder register, functional requir
 
 ## Live Dashboard
 
-📊 [Tableau Public Dashboard — Credit Risk Scorecard](https://public.tableau.com/views/CreditRiskScorecard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+📊 [Tableau Public Dashboard — Credit Risk Scorecard](https://public.tableau.com/app/profile/nico.avila/viz/CreditRiskScorecard/Dashboard1)
 
 ---
 
